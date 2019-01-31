@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import login from '@/components/login/login'
+// import login from '@/components/importlogin/login'
 // import ContentManagement from '@/components/ContentManagement/index'
 const newsTrends = ()=> import( '@/components/contentManagement/newsTrends')
 const ContentDetails = ()=> import( "@/components/contentDetails");
